@@ -168,7 +168,7 @@
           <q-space />
 
           <q-btn flat round icon="fast_rewind" @click="control('return')" :disabled="!play || play.index < 2" />
-          <q-btn flat round icon="fast_forward" @click="control('next')" :disabled="!play || play.index > 8"/>
+          <q-btn flat round icon="fast_forward" @click="control('next')" :disabled="!play || play.index > 17"/>
         </q-card-section>
       </q-card>
     </q-dialog>
